@@ -13,13 +13,5 @@ public class ShowTwoNumbers {
         JOptionPane.showMessageDialog(null, strNotifocation, "Show two numbers", JOptionPane.INFORMATION_MESSAGE);
         System.exit(0);
     
-    }
-
-   
-   
-    
-   
-   
-   
-    
+    }  
 }
