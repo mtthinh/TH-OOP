@@ -26,7 +26,7 @@ public class Ex_6_6 {
             System.out.println("Enter elements for Matrix 2:");
             fillMatrix(sc, matrix2);
         } else {
-            // Ma trận hằng số (ví dụ 2x3)
+
             matrix1 = new double[][]{{1.5, 2, 3}, {4, 5.2, 6}};
             matrix2 = new double[][]{{7, 8.1, 9}, {0, 1.8, 2}};
             rows = matrix1.length;
@@ -34,7 +34,6 @@ public class Ex_6_6 {
             System.out.println("Using constant matrices of size " + rows + "x" + cols);
         }
 
-        // Thực hiện cộng hai ma trận
         sumMatrix = new double[rows][cols];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -42,14 +41,12 @@ public class Ex_6_6 {
             }
         }
 
-        // Hiển thị kết quả
         System.out.println("\nResultant Matrix (Sum):");
         displayMatrix(sumMatrix);
 
         sc.close();
     }
 
-    // Hàm hỗ trợ nhập dữ liệu cho ma trận
     private static void fillMatrix(Scanner sc, double[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
@@ -59,7 +56,6 @@ public class Ex_6_6 {
         }
     }
 
-    // Hàm hỗ trợ hiển thị ma trận
     private static void displayMatrix(double[][] matrix) {
         for (double[] row : matrix) {
             for (double element : row) {
