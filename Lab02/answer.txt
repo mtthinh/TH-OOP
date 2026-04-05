@@ -1,0 +1,3 @@
+﻿The answer is No
+In Java, you can have multiple constructors, but they must have different method signatures. 
+A method signature consists of the method's name and the type, number, and order of its parameters.
