@@ -74,7 +74,7 @@ public class Cart {
         System.out.println("Total cost: " + totalCost() + "$");
         System.out.println("**************************************************");
     }
-    
+
     public void searchById(int id) {
         boolean found = false;
         for (int i = 0; i < qtyOrdered; i++) {

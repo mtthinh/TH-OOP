@@ -4,7 +4,6 @@ public class DigitalVideoDisc {
     private String director;
     private int length;
     private float cost;
-    private int id;
 
     private static int nbDigitalVideoDiscs = 0;
     private int id;
