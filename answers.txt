@@ -8,5 +8,5 @@ So the jungleDVD and cinderellaDVD object references still point to the same obj
 After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
     Because the changeTitle() method is modifying the title field of the jungleDVD object directly using the setter method.
 
-4. Write a toString() method for the DigitalVideoDisc class. What should be the return type of this method?
+Write a toString() method for the DigitalVideoDisc class. What should be the return type of this method?
     The return type should be String.
